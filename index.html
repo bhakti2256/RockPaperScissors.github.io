@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <h1 id="heading">Welcome to the game of Rock Paper Scissors</h1>
+        <div id="winner">Choose One</div>
+        <div class="container">
+            <div class="choices">
+                <!-- <h2>Choose one:</h2> -->
+                <div>
+                    <img id="rock" src="/images/rock.png" alt="" onclick="rpsGame(this)">
+                </div>
+                <div>
+                    <img id="paper" src="/images/paper.png" alt="" onclick="rpsGame(this)">
+                </div>
+                <div>
+                    <img id="scissor" src="/images/scissors.png" alt="" onclick="rpsGame(this)">
+                </div>
+            </div>
+            
+            <div class="choices">
+                <p id="vs">~VS~</p>
+            </div>
+            
+            <div class="choices" id="computerchoice">
+                <!-- <h2>Choose one:</h2> -->
+                <div>
+                    <img id="crock" src="/images/rock.png" alt="" onclick="rpsGame(this)">
+                </div>
+                <div>
+                    <img id="cpaper" src="/images/paper.png" alt="" onclick="rpsGame(this)">
+                </div>
+                <div>
+                    <img id="cscissor" src="/images/scissors.png" alt="" onclick="rpsGame(this)">
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</body>
+<script src="/home.js"></script>
+
+</html>

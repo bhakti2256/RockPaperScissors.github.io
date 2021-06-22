@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body ::before{
+    content: "";
+    background: url("/rock-paper-scissor.jpg") no-repeat center /cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0.05;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#heading{
+    font-size: 2.5rem;
+    background-color: bisque;
+    width: max-content;
+    align-self: center;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.choices{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 40px;
+}
+
+.choices img{
+    height: 150px;
+    width: 150px;
+    margin: 5px;
+}
+
+#vs{
+    border: 2px solid thistle;
+    color: white;
+    background-color: darkred;
+    border-radius: 50%;
+    padding: 15px;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.choices img:hover{
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+#winner{
+    align-self: center;
+    font-size: 1.5rem;
+    margin: 15px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: cornsilk;
+    color: red;
+    font-weight: bold;
+}
+
+#computerchoice img:hover{
+    cursor:default;
+    border: none;
+}
