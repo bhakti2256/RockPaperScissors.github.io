@@ -6,7 +6,7 @@
 
 body ::before{
     content: "";
-    background: url("/rock-paper-scissor.jpg") no-repeat center /cover;
+    background: url("rock-paper-scissor.jpg") no-repeat center /cover;
     height: 100%;
     width: 100%;
     z-index: -1;
